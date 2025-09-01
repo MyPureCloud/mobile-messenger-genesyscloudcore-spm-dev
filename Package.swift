@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GenesysCloudCore",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudCore/GenesysCloudCore_version_1.18.0-SNAPSHOT-feature-GMMS-7966-cards-and-carousels-4_commit_98b785d0f834fe4585ce103d2536397289641bdd.zip",
-            checksum: "653dc79dc49dbca272d5c455d5c27d59ea122ddc5dd99caeb1d81705a1b7c32c"
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudCore/GenesysCloudCore_version_1.16.1-SNAPSHOT-hotfix-1.16.1-3_commit_591f05a8c1632423fa4d3299e6643d108b792080.zip",
+            checksum: "99919a4688b85ece7d013270d5b7b22cf4fe947559c5246b3cd1bcc0ecfb9ce7"
         ),
         .testTarget(name: "PackageTests", dependencies: [
             "GenesysCloudCore"
