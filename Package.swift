@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GenesysCloudCore",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudCore/GenesysCloudCore_version_1.20.0-SNAPSHOT-feature-GMMS-9716-markdown-22_commit_a541ef7167c1c89e33cfe2ccdf457fc3295494e4.zip",
-            checksum: "a406e342577dc050832b031c5ecaec24cd76ee663023aab2586c4a077048f308"
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudCore/GenesysCloudCore_version_1.18.0.rc4_commit_9b3934e232656034e04a14b16a04d22c3265be51.zip",
+            checksum: "1e95380a3eb12a3ff0f3d6b660e35c24775970630fbe7b9b9ecb60e242b02aa5"
         ),
         .testTarget(name: "PackageTests", dependencies: [
             "GenesysCloudCore"
