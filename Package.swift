@@ -11,16 +11,16 @@ let package = Package(
     products: [
         .library(
             name: "GenesysCloudCore",
-            targets: ["GenesysCloudCore"]),
+            targets: ["GenesysCloudCore-NewHost"]),
     ],
     targets: [
         .binaryTarget(
-            name: "GenesysCloudCore",
-            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudCore/GenesysCloudCore_version_1.20.1-snapshot-feature-embed-sample-app-60_commit_767875732f9b6a0076c6bd83129ec691f308c1f8.zip",
-            checksum: "35dcfb9b66b472310b21c4ed827657e86b704df296e9b5028e0bd0914ef15667"
+            name: "GenesysCloudCore-NewHost",
+            url: "https://genesysdx.jfrog.io/artifactory/genesys-cloud-ios.dev/GenesysCloudCore/GenesysCloudCore-2.2.0-rc1.zip",
+            checksum: "89d50ccc9de5f0709f31af4b202a23f6f7099e856d9d0e6d74d48a7e25d76703"
         ),
         .testTarget(name: "PackageTests", dependencies: [
-            "GenesysCloudCore"
+            "GenesysCloudCore-NewHost"
         ])
     ]
 )
